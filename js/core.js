@@ -3,7 +3,7 @@ function alertUserCookie(){
   alert(document.cookie);
 }
 
-setUserCookie(){
+function setUserCookie(){
   document.cookie="user=someone";
 }
 
