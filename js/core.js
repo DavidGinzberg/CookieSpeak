@@ -1,9 +1,14 @@
 function alertUserCookie(){
-  document.cookie="user=someone";
+  
   alert(document.cookie);
 }
 
+setUserCookie(){
+  document.cookie="user=someone";
+}
+
 function doTheThing(){
+  setUserCookie();
   alertUserCookie();
   
   console.log("I did the thing!");
